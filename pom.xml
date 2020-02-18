@@ -16,5 +16,87 @@
         <module>cms-core</module>
     </modules>
 
+    <dependencies>
+        <!-- servlet -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-servlet-api</artifactId>
+            <version>8.5.0</version>
+        </dependency>
+        <!-- springmvc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+        <!-- Java对象（POJO）和XML文档之间来回转 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-oxm</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+        <!-- spring操作jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+        <!-- spring aspect3 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+        <!-- 包含支持缓存Cache（encache）、JCA、TMX -->
+        <!-- 邮件服务（Java Meil、COD Meil） -->
+        <!-- 任务计划Scheduling -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+        <!-- spring 事务管理 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+        <!-- aop -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+        <!-- mybatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.0</version>
+        </dependency>
+        <!-- mybatis支持JSR310标准 -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-typehandlers-jsr310</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- mysql -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.6</version>
+        </dependency>
+        <!-- druid数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.16</version>
+        </dependency>
+
+    </dependencies>
 
 </project>

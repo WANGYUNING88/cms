@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cms-portal" />
+        <module name="cms-context" />
+        <module name="cms-core" />
+        <module name="cms-dao" />
         <module name="cms-service" />
       </profile>
     </annotationProcessing>
