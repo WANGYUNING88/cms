@@ -12,9 +12,12 @@ public class TestController {
     private TestService testService;
 
     @RequestMapping("test")
-    public void test(){
+    public String test(){
+        return "/admin/test/index";
+    }
+    /*public void test(){
         int count = testService.count();
         System.out.println(count);
-    }
+    }*/
 
 }
