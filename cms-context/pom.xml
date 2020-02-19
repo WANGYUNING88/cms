@@ -11,5 +11,13 @@
 
     <artifactId>cms-context</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>cms-core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 
 </project>

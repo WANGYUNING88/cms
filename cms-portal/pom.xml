@@ -12,7 +12,7 @@
     <artifactId>cms-portal</artifactId>
     <packaging>war</packaging>
 
-    <name>cms-portal Maven Webapp</name>
+    <name>cms-portal</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.wang.com</url>
 
@@ -23,6 +23,12 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>cms-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
